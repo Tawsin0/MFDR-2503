@@ -1,0 +1,102 @@
+/* ======================
+      common css start
+====================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+     --white :#FFFFFF;
+     --black :#000000;
+     --white-e :#EEEEEE;
+     --red : rgb(126, 8, 8);
+     --inter: "Inter", sans-serif;
+
+}
+
+*{
+    padding: 0 px;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: var(--inter);
+}
+
+.nav_containar{
+      max-width: 1270px;
+      margin: 0 auto;
+}
+.containar{
+      max-width: 1170px;
+      margin: 0 auto;
+}
+  
+a{
+      text-decoration: none;
+}
+ul,ol,li{
+      list-style: none;
+}
+
+
+
+
+/* ======================
+      common css End
+====================== */
+
+
+
+
+/* ======================
+      Nav css start
+====================== */
+nav{
+      background: var(--black);
+      padding: 15px 0;
+}
+
+.main_manu{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+}
+.main_manu .logo {}
+.main_manu .logo img {}
+.main_manu .manu {}
+.main_manu .manu ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+}
+.main_manu .manu ul li {}
+.main_manu .manu ul li a {
+      color: var(--white);
+      font-weight: 600;
+      padding: 16px;
+      transition: all linear 0.2s;
+      -webkit-transition: all linear 0.2s;
+      -moz-transition: all linear 0.2s;
+      -ms-transition: all linear 0.2s;
+      -o-transition: all linear 0.2s;
+}
+.main_manu .manu ul li a:hover {
+      color: var(--red)
+      
+}
+
+.main_manu .button {
+      display: flex;
+      justify-content: end;
+      gap: 10px;
+}
+.main_manu .button button {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+}
+.main_manu .button button img{}
+
+
+/* ======================
+      nav css End
+====================== */
